@@ -13,7 +13,7 @@ app.on('window-all-closed', function() {
 });
 
 app.on('ready', function() {  
-  mainWindow = new BrowserWindow({width: 800, height: 600});
+  mainWindow = new BrowserWindow({width: 1050, height: 600});
   mainWindow.loadURL('https://google.es');
 
   // mainWindow.on('closed', function() {
